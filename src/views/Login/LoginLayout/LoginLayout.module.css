@@ -1,0 +1,32 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url("./home-background.jpg");
+    background-size: 100% 100%;
+}
+.antForm {
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+.form-item img {
+    width: 100%;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login button {
+    width: 100px;
+}

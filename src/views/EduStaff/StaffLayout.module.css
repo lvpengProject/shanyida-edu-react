@@ -1,0 +1,17 @@
+.staff_layout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.staff_header {
+    flex-shrink: 0;
+}
+.staff_content {
+    flex-grow: 1;
+    overflow: hidden;
+}
+.staff_footer {
+    flex-shrink: 0;
+
+}

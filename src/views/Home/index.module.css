@@ -1,0 +1,16 @@
+
+.sider {
+    height: 98%;
+    box-shadow: 7px 0 2px rgba(0, 0, 0, 0.3);
+    margin: 5px 20px 5px 0;
+    display: flex;
+    border-radius: 0 25px 25px 0;
+    flex-direction: column;
+    justify-content: inherit;
+    background-color: #409EFF !important;
+}
+.home-header {
+    background-color: #409EFF !important;
+    padding: 0 !important;
+    margin: 0!important;
+}

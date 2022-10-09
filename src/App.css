@@ -1,0 +1,141 @@
+* { margin: 0;padding: 0; }
+a { text-decoration: none; }
+ul { list-style: none; }
+#root {
+    height: 100%; width: 100%;
+    min-height: 700px;
+    min-width: 1500px;
+    display: flex;
+}
+body, html { height: 100%; width: 100%;}
+.ant-layout {
+    height: 100%;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0!important;
+}
+.ant-layout-has-sider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ant-layout-header {
+
+}
+
+.ant-layout-footer {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*菜单样式调整*/
+.ant-menu, .ant-menu-root {
+    background-color: #409EFF !important;
+}
+.ant-layout-sider-children {
+    border-radius: 0 25px 25px 0 !important;
+    font-size: 25px!important;
+}
+.ant-menu-submenu, .ant-menu-item, .ant-menu-submenu-arrow{
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 16px!important;
+}
+.ant-menu-submenu-active:hover {
+    background-color: #409EFF !important;
+
+}
+.ant-menu-submenu-title:hover {
+    color: #ffffff !important;
+}
+.ant-menu-item:hover {
+    background-color: #ffffff !important;
+    color: #409EFF !important;
+    margin: 0;
+}
+.ant-menu-item-selected {
+    background-color: #ffffff !important;
+    color: #409EFF !important;
+}
+.ant-menu-inline {
+    margin: 0;
+}
+
+.ant-tabs {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 10px!important;
+
+}
+.ant-tabs .ant-tabs-nav {
+    flex-shrink: 0;
+    border: 1px solid #cccccc!important;
+}
+.ant-tabs .ant-tabs-content-holder {
+    flex-grow: 1;
+    overflow: hidden;
+    height: 100%;
+    /*background-color: #ffffff;*/
+    position: relative;
+
+}
+.ant-tabs .ant-tabs-tab {
+    border: 1px solid #cccccc!important;
+}
+.ant-tabs .ant-tabs-tab:active {
+    border-bottom: none;
+}
+.ant-tree {
+    width: 700px;
+    background-color: #ffffff;
+}
+.ant-tree .ant-tree-switcher {
+    margin-left: 20px;
+    padding: 5px!important;
+ }
+.ant-tree .ant-tree-node-content-wrapper {
+    /*height: 30px;*/
+    padding: 5px!important;
+    display: flex;
+    /*align-items: center;*/
+    margin-left: 5px!important;
+}
+.ant-tree-node-content-wrapper:hover {
+    background-color: #409EFF!important;
+    color: #ffffff!important;
+    border-radius: 5px;
+}
+.table-layout {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ant-table.ant-table-bordered > .ant-table-container {
+    border: 1px solid #cccccc!important;
+    border-bottom: none!important;
+}
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > thead > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > tbody > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > tfoot > tr > th, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tfoot > tr > td, .ant-table.ant-table-bordered > .ant-table-container > .ant-table-summary > table > tfoot > tr > td {
+    border-right: 1px solid #cccccc!important;
+}
+.ant-table-tbody > tr > td {
+    border-bottom: 1px solid #cccccc!important;
+}
+.ant-table-thead > tr > th {
+    border-bottom: 1px solid #cccccc!important;
+}
